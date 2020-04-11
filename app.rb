@@ -19,6 +19,6 @@ class App < Sinatra::Base
     @num.times do
       @str += @phr
     end 
-    
+      "#{@str}"
   
 end
