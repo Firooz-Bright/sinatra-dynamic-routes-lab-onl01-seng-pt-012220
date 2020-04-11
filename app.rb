@@ -40,6 +40,6 @@ class App < Sinatra::Base
        "#{@num_1* @num_2}"
      else params[:operation]=="divide"
        "#{ @num_1/@num_2}"
-    end 
-   
+     end 
+   end 
 end
