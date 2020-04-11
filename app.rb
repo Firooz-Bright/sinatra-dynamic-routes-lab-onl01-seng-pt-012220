@@ -20,5 +20,7 @@ class App < Sinatra::Base
       @str += @phr
     end 
       "#{@str}"
-  
+   end 
+   
+   
 end
