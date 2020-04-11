@@ -35,5 +35,6 @@ class App < Sinatra::Base
       @subtraction=@num_1+@num_2
       @multiple=@num_1*@num_2
       @divide=@num_1/@num_2
+    end 
    
 end
