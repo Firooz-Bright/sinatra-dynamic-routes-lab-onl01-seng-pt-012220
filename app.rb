@@ -33,7 +33,7 @@ class App < Sinatra::Base
       @num_1=params[:number1].to_i
       @num_2=params[:number2].to_i
        "#{@num_1+@num_2}"
-      @subtraction = @num_2-@num_1
+       "#{ @num_2-@num_1}"
       @multiple = @num_1*@num_2
       @divide = @num_1/@num_2
     end 
