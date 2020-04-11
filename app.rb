@@ -6,4 +6,11 @@ class App < Sinatra::Base
     @user = params[:name]
     "#{@user.reverse}"
   end
+  
+  
+  
+  
+  
+  
+  
 end
