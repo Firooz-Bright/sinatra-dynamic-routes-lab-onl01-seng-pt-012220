@@ -35,7 +35,7 @@ class App < Sinatra::Base
        "#{@num_1+@num_2}"
        "#{ @num_2-@num_1}"
        "#{@num_1*@num_2}"
-      @divide = @num_1/@num_2
+       "#{ @num_1/@num_2}"
     end 
    
 end
