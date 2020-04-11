@@ -7,7 +7,7 @@ class App < Sinatra::Base
     "#{@user.reverse}"
   end
   
-  get 
+  get '/square/:number'
   
   
   
